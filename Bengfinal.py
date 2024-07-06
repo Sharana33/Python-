@@ -3,7 +3,7 @@ from pandas._config import display
 from sklearn import linear_model
 from tkinter import *
 
-df=pd.read_csv(r"C:\Users\Vivek  G V\OneDrive\Desktop\lab\homeprices_banglore.csv")
+df=pd.read_csv(r"C:\Users\SHARANAPPA A N\OneDrive\Desktop\lab\homeprices_banglore.csv")
 x=df.drop(columns=['price'])
 y=df.drop(columns=['bedrooms','area','age'],axis='columns')
 
